@@ -1,0 +1,122 @@
+<HTML>
+
+<head>
+        <link rel="stylesheet" href="stylesheet.Css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+        <!-- jQuery Modal -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+        <link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <center>
+
+<body>
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <a class="navbar-brand" href="#"><img id="logo" src="./section2GMCLogo.png" width="350"></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                              
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                  <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                      <a class="nav-link" href="index.HTML">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="courses.HTML">courses</a>
+                                    </li>
+                                    <li class="nav-item">
+                                                <a class="nav-link" href="contact.HTML">contact</a>
+                                              </li>
+                            
+                                 
+                                  </ul>
+                                  <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                  </form>
+                                </div>
+                              </nav>
+                
+        <center>
+                       
+
+        <h1>COURSES</h1>
+         <div class="row">
+        
+          <div class="col" > <img class="photo" src="./RESSOURCES/1657fc9fe329c69.jpg " width="300" height="300"><a href="#ex1"
+                        rel="modal:open">
+                        <button class="bt">view more</button></a>
+        </div>
+        <div class="col"> <img class="photo1" src="./RESSOURCES/kano-kit-primary-100747281-large.jpg" width="300"
+                     height="300"><a href="#ex1" rel="modal:open">
+                        <button class="bt">view more</button></a>
+        </div>
+        <div class="col"> <img class="photo2" src="RESSOURCES/large (1).jpg" width="300" height="300"><a href="#ex1"
+                        rel="modal:open">
+                        <button class="bt">view more</button></a></div>
+                </div>
+                <div class="row">
+        <div class="col"> <br><br> <img class="photo3" src="RESSOURCES/large.jpg" width="300" height="300"><a href="#ex1"
+                        rel="modal:open">
+                        <button class="bt">view more</button></a></div>
+        <div class="col"> <img class="photo2" src="RESSOURCES/large (1).jpg" width="300" height="300"><a href="#ex1"
+                                rel="modal:open">
+                                <button class="bt">view more</button></a></div>
+                <div class="col"> <br><br> <img class="photo3" src="RESSOURCES/large.jpg" width="300" height="300"><a href="#ex1"
+                                rel="modal:open">
+                                <button class="bt">view more</button></a></div>
+        </div>
+        <div class="row">
+                        <div class="col"> <br><br> <img class="photo3" src="RESSOURCES/large.jpg" width="300" height="300"><a href="#ex1"
+                                        rel="modal:open">
+                                        <button class="bt">view more</button></a></div>
+                        <div class="col"> <img class="photo2" src="RESSOURCES/large (1).jpg" width="300" height="300"><a href="#ex1"
+                                                rel="modal:open">
+                                                <button class="bt">view more</button></a></div>
+                                <div class="col"> <br><br> <img class="photo3" src="RESSOURCES/large.jpg" width="300" height="300"><a href="#ex1"
+                                                rel="modal:open">
+                                                <button class="bt">view more</button></a></div>
+                        </div>
+        <br><br><br><br><br><br>
+        <h2> Feedback</h2>
+        
+        <div class="btn">
+                <button onclick="A()">a</button>
+
+                <button class="btn2" onclick="x()">I</button>
+
+                <button class="btn3" onclick="d()">underline</button>
+
+
+                <br>
+                <select class="btn4" id="sz" onchange="fontSize(this.value);">
+                        <option value="10px">10 pixel</option>
+                        <option value="20px"> 20 pixel</option>
+                        <option value="30px">30 pixel</option>
+                </select>
+                <select class="btn5" id="TT" onchange="police(this.value);">
+                        <option value="Arial">Arial</option>
+                        <option value="verdana">verdana</option>
+                        <option value="Geneva">Geneva</option>
+                </select>
+        </div>
+
+        <form>
+                <br>
+                <textarea cols="50" row="20" id="paragraph"></textarea>
+        </form>
+
+        </div>
+</center>
+
+        <div id="ex1" class="modal">
+                <p>Thanks for clicking. That felt good.</p>
+                <a href="#" rel="modal:close">Close</a>
+        </div>
+
+</body>
+<script src="main.js"></script>
+
+</HTML>

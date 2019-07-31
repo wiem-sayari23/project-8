@@ -1,0 +1,88 @@
+body{
+    background:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+    background-size: cover;
+
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.in{
+display: inline;   
+    margin-left:20px;
+}
+body{
+    font-family: "Helvetica Neue ",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color:black#333;
+    background-color:white#fff;
+}
+body{
+    margin-top: top 20px;
+} 
+
+#bare{
+    height: 130px;
+padding-top: 20px;
+
+}
+.bare{
+    color: white;
+    text-decoration:none;
+    font-size: 40px;
+} 
+a,li{
+display: inline;
+word-spacing: 20px;
+font-size: 30px;
+text-decoration: none;
+color: white;
+
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+}
+
+h1{
+    color: #fff;
+}
+
+label{
+    word-spacing: normal;
+    color: #fff;
+}
+.bare:hover{
+    background-color:lightsalmon
+}  
+
+.btn {
+    display:flex; 
+    justify-content: center;
+}
+.btn2{
+    margin-left: 5px;
+    
+}
+.btn3 {
+    margin-left: 5px;
+}
+.btn4 {
+    margin-left: 5px;
+}
+.btn5{
+    margin-left: 5px
+}
+
+.bt{
+    position: absolute;
+    transform: translate(-180px,150px);
+}
